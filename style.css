@@ -1,0 +1,24 @@
+.calculator {
+  width: 350px;
+  height: 500px;
+  border: 1px solid blue;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 100vh;
+  color: orange;
+}
+button {
+  background-color: burlywood;
+}
+
+.calculator__result {
+  width: 350px;
+  height: 200px;
+  background-color: aqua;
+}
