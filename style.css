@@ -22,6 +22,7 @@ body {
   align-items: center;
   border: 1px solid red;
   height: 100vh;
+  background: linear-gradient(rgb(189, 215, 233), rgb(132, 141, 231));
 }
 .calculator__display--for-advanced {
   height: 100px;
@@ -56,6 +57,7 @@ button {
   /*background: rgb(98, 98, 98);*/
   /*background: linear-gradient(0deg, rgb(94, 94, 95) 0%, rgb(52, 52, 53) 100%);*/
   border: none;
+  cursor: pointer;
 }
 
 .operator_orange {
@@ -73,6 +75,9 @@ button {
   font-size: 10px;
   background-color: #ff5f57;
   float: left;
+  position: relative;
+  left: -25px;
+  top: -25px;
 }
 .top_button2 {
   display: flex;
@@ -83,6 +88,9 @@ button {
   font-size: 10px;
   background-color: #ffbd2e;
   float: left;
+  position: relative;
+  left: -20px;
+  top: -25px;
 }
 .top_button3 {
   display: flex;
@@ -93,6 +101,9 @@ button {
   font-size: 10px;
   background-color: #27c840;
   float: left;
+  position: relative;
+  left: -15px;
+  top: -25px;
 }
 
 .number:hover {
@@ -136,3 +147,9 @@ button {
   background: orange;
   background: linear-gradient(0deg, rgb(85, 85, 85) 0%, rgb(95, 94, 93) 100%);
 }
+/*
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}*/
